@@ -1,0 +1,233 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.practice-page {
+  border-radius: 25px;
+  width: 50%;
+  height: 80%;
+  border: 2px solid white;
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.s4V1-QPviCNTynBFE8SUMgHaNK?r=0&pid=Api&h=220&P=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.practice-close-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  color: white;
+  margin-right: -65px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.seS8cRuosY57GnnBpmtNEgHaNK?r=0&pid=Api&h=220&P=0");
+  background-position: center;
+  background-size: cover;
+  border-radius: 28px;
+  padding: 8px;
+}
+
+.nav-link-1 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.nav-link-1 img {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+.nav-link-1 h2 {
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+ ;
+}
+
+.nav-link-1 span {
+  color: blue;
+}
+
+.nav-link-2 {
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 13px;
+}
+
+.main-page {
+  border: 1px solid white;
+  height: 91%;
+  background-color: bisque;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.heading-sec {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0px;
+}
+
+.heading-sec h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.heading-sec p {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.price-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 117px;
+  background-color: chocolate;
+}
+
+.price-details {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 25px;
+  flex-direction: column;
+  line-height: 0px;
+}
+
+.price-details h2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.price-details p {
+  font-size: 10px;
+  font-family: serif;
+  margin-top: 5px;
+}
+
+.input-btn {
+  line-height: 38px;
+}
+
+.input-text {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input-text::placeholder {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.practice-btn {
+  background-color: orange;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.practice-btn:hover {
+  opacity: 0.5;
+}
+
+.result-sec {
+  border: 1px solid beige;
+  width: 100px;
+  padding: 10px;
+  margin-right: 21px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.examples-sec {
+}
+
+.examples-sec h4 {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.examples-sec p {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.example-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.example-1 p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.example-1 button {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 12px;
+}
+
+.example-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.example-2 p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.example-2 button {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 12px;
+}
+
+.footer-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 106px; */
+  margin-right: 220px;
+  background-color: chocolate;
+  width: 100%;
+}
+
+.footer-sec p {
+  font-size: 10px;
+  font-family: sans-serif;
+}

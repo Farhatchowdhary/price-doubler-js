@@ -1,0 +1,143 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://tse2.mm.bing.net/th/id/OIP.TH07o8bCE3us0vw9QHXMnwHaCO?r=0&pid=Api&h=220&P=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page {
+  width: 50%;
+  border: 1px solid #ffb366;
+  min-height: 70%;
+  box-shadow: 0 8px 25px rgba(255, 140, 13, 4.35);
+  border-radius: 14px;
+  background-color: rgb(137, 60, 5);
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.apC1qnDz4z8_QCDT2axuVQHaE0?r=0&pid=Api&h=220&P=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-btn h1 {
+  display: flex;
+  /* margin-left: 130px; */
+  font-size: 35px;
+  font-family: sans-serif;
+  color: darkorange;
+  margin: 0;
+}
+
+.title-btn button {
+  border: 1px solid orange;
+  background: transparent;
+  border-radius: 44px;
+  font-size: 30px;
+  height: 32px;
+  width: 32px;
+  margin-top: 15px;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 22px rgba(78, 126, 13, 11.35);
+  color: white;
+}
+
+.title-sec {
+  display: flex;
+  flex-direction: column;
+  margin-left: 269px;
+  margin-top: 30px;
+  line-height: 18px;
+}
+
+.title-sec p {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 10px;
+}
+
+.price-content {
+  display: flex;
+  justify-content: center;
+  line-height: 18px;
+  gap: 20px;
+  border: 1px solid orange;
+  width: 44vw;
+  margin-left: 26px;
+  border-radius: 8px;
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.IGjcNETqErsUfvcNiZHXMgHaFq?r=0&pid=Api&h=220&P=0");
+  color: white;
+}
+
+.price-content img {
+  border-radius: 23px;
+  margin-top: 14px;
+  border-radius: 23px;
+  margin-top: 14px;
+  height: 70px;
+  width: 39px;
+}
+
+.info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid orange;
+  width: 25%;
+  height: 115px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.Im9CE4f3qC2P64FUxyLDRgHaDt?r=0&pid=Api&h=220&P=0");
+}
+
+.logo-number {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.logo-text,
+.logo-sun,
+.logo-multiply {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.cards p {
+  color: white;
+  font-size: 10px;
+  line-height: 10px;
+  margin-left: 5px;
+}

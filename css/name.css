@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(70, 20, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://tse4.mm.bing.net/th/id/OIP.elbcDrcPgUSpilVuVlgRNgHaDt?r=0&pid=Api&h=220&P=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.name-section h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  width: 350px;
+  height: 110px;
+  background-color: rgb(225, 63, 63);
+  color: palegoldenrod;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  border: none;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: -13px;
+}
+
+.rotating-title {
+  background: linear-gradient(to right, red, orange, purple, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rotateTitle 6s linear infinite;
+}
+
+@keyframes rotateTitle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

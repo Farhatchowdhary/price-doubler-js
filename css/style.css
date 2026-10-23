@@ -1,0 +1,194 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+}
+
+.nav-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  height: 35px;
+  background-color: white;
+  gap: -4px;
+  width: 98vw;
+  margin: 20px;
+  border-radius: 19px;
+}
+
+.nav-sec img {
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-right: 0;
+}
+
+.two-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-sec h2 {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-right: 755px;
+  display: flex;
+  gap: 5px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  /* margin-left: -280px; */
+}
+.nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-name:hover {
+  text-decoration: underline;
+}
+
+.price-title span {
+  color: blue;
+}
+
+.nav-about:hover {
+  text-decoration: underline;
+}
+
+.nav-practice:hover {
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  line-height: 3px;
+  padding: 25px;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.title h1 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title p {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title span {
+  color: blue;
+}
+
+.task-sec {
+  background-color: rgb(240, 235, 229);
+  height: 95px;
+  border-radius: 10px;
+  width: 95vw;
+  margin-left: 23px;
+}
+
+.img-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-title img {
+  margin-left: 23px;
+  border-radius: 20px;
+}
+
+.img-title p {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.task-details {
+  display: flex;
+  font-size: 10px;
+  gap: 95px;
+  font-family: sans-serif;
+  margin-left: 24px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.task-details span {
+  border: 1px solid black;
+  font-size: 14px;
+  background-color: orange;
+  border-radius: 17px;
+  padding: 5px;
+  margin-right: 10px;
+  display: flex;
+  width: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-1 p,
+.task-2 p,
+.task-3 p,
+.task-4 p {
+  display: flex;
+  align-items: center;
+}
+
+#result {
+  border: none;
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border: none;
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-btn-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price-btn {
+  border: none;
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
